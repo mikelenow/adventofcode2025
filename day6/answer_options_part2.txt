@@ -1,0 +1,6 @@
+Possible Part 2 answers (depending on input format):
+
+Option 1 (with leading space on line 0): 5631713881026
+Option 2 (without leading space): 10951882745757
+
+Please verify your puzzle input format from Advent of Code.
