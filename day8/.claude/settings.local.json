@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:adventofcode.com)",
+      "Bash(python test_solution.py:*)",
+      "Bash(for i in {9..25})",
+      "Bash(do mkdir -p \"day$i\")",
+      "Bash(done)",
+      "Bash(ls:*)",
+      "Bash(for i in {1..25})",
+      "Bash(do touch \"day$i/input.txt\")",
+      "Bash(echo:*)",
+      "Bash(python solution.py:*)",
+      "Bash(python debug_solution.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
